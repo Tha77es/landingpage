@@ -1,0 +1,121 @@
+/* ======== FONTE FUTURISTA ======== */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
+
+/* ======== CONFIG BASE ======== */
+body {
+    margin: 0;
+    padding: 0;
+    background: #0a0a0a; 
+    color: #e0e0e0;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 1.6;
+}
+
+/* ======== HEADER ======== */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #0f001a;
+    border-bottom: 2px solid #7a00ff;
+    box-shadow: 0 0 20px #7a00ff70;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #c300ff;
+    text-shadow: 0px 0px 14px #ff00ff, 0px 0px 28px #7a00ff;
+}
+
+/* ======== NAVBAR ======== */
+nav a {
+    margin: 0 15px;
+    font-size: 16px;
+    color: #7afff1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00ff95;
+    text-shadow: 0px 0px 10px #00ff9577;
+}
+
+/* ======== IMAGEM ======== */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 260px;
+    border-radius: 12px;
+    border: 2px solid #7a00ff;
+    box-shadow: 0 0 15px #7a00ffaa;
+}
+
+/* ======== TITULOS ======== */
+h2, h3 {
+    color: #b300ff;
+    text-shadow: 0 0 10px #b300ff88;
+    text-align: center;
+}
+
+/* ======== PARÁGRAFOS ======== */
+p {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+/* ======== HR NEON ======== */
+hr {
+    border: none;
+    height: 2px;
+    margin: 40px 60px;
+    background: linear-gradient(90deg, #7a00ff, #00ff95, #7a00ff);
+    box-shadow: 0 0 15px #7a00ff;
+}
+
+/* ======== LISTA ======== */
+ol {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+li {
+    margin: 8px 0;
+    color: #b7ffea;
+}
+
+/* ======== LINKS GERAIS ======== */
+a {
+    color: #9d4bff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #00ff95;
+    text-shadow: 0 0 10px #00ff9590;
+}
+
+/* ======== BOTÕES DE DOWNLOAD ======== */
+a[download] {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    border: 2px solid #7a00ff;
+    border-radius: 10px;
+    color: #fff;
+    background: #19002b;
+    box-shadow: 0 0 10px #7a00ff90;
+}
+
+a[download]:hover {
+    background: #7a00ff;
+    box-shadow: 0 0 20px #7a00ffcc;
+}
+
+/* ======== SEÇÃO DE CONTATO ======== */
+#contato p {
+    text-align: center;
+    line-height: 2;
+}
